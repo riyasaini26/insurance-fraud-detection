@@ -4,7 +4,7 @@
 Insurance companies lose significant revenue to fraudulent claims, but 
 fraud is rare (~6% of claims) — making it a hard, imbalanced classification 
 problem. This project builds and compares three machine learning models 
-to flag suspicious auto insurance claims for investigation, with a focus 
+to flag suspicious motor insurance claims for investigation, with a focus 
 on maximizing fraud detection (recall) at an acceptable false-positive cost.
 
 ## Dataset
