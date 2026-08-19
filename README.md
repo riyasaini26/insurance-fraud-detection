@@ -28,29 +28,39 @@ No nulls, dropped ID columns (PolicyNumber, RepNumber)
 Dropped Year (low variance, misleading importance)
 
 ↓
+
 EDA
+
 Fraud rate by Fault, PolicyType, VehiclePrice
 Fraud rate by PoliceReportFiled, WitnessPresent, AgentType
 
 ↓
+
 Preprocessing
+
 One-hot encoding for categorical features
 Train/test split (stratified, 80/20)
 SMOTE applied only on training data
 
 ↓
+
 Model Building
+
 Decision Tree (baseline)
 Random Forest (bagging ensemble)
 XGBoost (boosting, hyperparameter-tuned via RandomizedSearchCV)
 
 ↓
+
 Evaluation
+
 Precision, Recall, F1, ROC-AUC, PR-AUC (Average Precision)
 Confusion matrices, ROC curves, Precision-Recall curves
 
 ↓
+
 Threshold Optimization
+
 Tuned decision threshold using PR curve to maximize F1
 
 ## Key EDA Findings
