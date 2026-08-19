@@ -85,7 +85,7 @@ metric on imbalanced data).
 |---|---|---|---|---|
 | Decision Tree | 67% | 0.7934 | 0.1571 | 72% |
 | Random Forest | 90% | 0.7983 | 0.1597 | 19% |
-| XGBoost (tuned) | 93% | 0.8396 | **0.2168** | 7% |
+| XGBoost (default) | 93% | 0.8396 | **0.2168** | 7% |
 
 Random Forest's 90% accuracy is misleading — it only catches 19% of 
 actual fraud. XGBoost had the best PR-AUC (0.2168, ~3.6x better than 
